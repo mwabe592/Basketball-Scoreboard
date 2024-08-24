@@ -1,13 +1,15 @@
 @font-face {
   font-family: "Cursed Timer ULiL", sans-serif;
-  src: url(https://fonts.cdnfonts.com/css/cursed-timer-ulil);
+  src: url(CursedTimerUlil-Aznm.ttf);
 }
 
 body {
   margin: 0;
-  background-color: 1B244A;
+  background-image: url("background.jpg");
+  background-size: auto 100%;
   text-align: center;
   height: 100vh;
+  max-width: 100vh;
 }
 
 .container {
@@ -28,10 +30,15 @@ h3 {
   color: F94F6D;
   font-size: 90px;
   margin: 20px;
+  border-radius: 20px;
+  font-family: Cursed Timer ULiL;
+  padding: 10px;
 }
 
 .btn {
-  background: none;
-  color: 9AABD8;
+  background: black;
+  color: white;
   border: 1px solid;
+  border-radius: 5px;
+  padding: 5px;
 }
