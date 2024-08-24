@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "Cursed Timer ULiL", sans-serif;
+  src: url(https://fonts.cdnfonts.com/css/cursed-timer-ulil);
+}
+
+body {
+  margin: 0;
+  background-color: 1B244A;
+  text-align: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+h1,
+h3 {
+  color: white;
+}
+/*need to change scores font using face font property*/
+.score {
+  display: block;
+  width: 155;
+  height: 120;
+  background-color: black;
+  color: F94F6D;
+  font-size: 90px;
+  margin: 20px;
+}
+
+.btn {
+  background: none;
+  color: 9AABD8;
+  border: 1px solid;
+}
